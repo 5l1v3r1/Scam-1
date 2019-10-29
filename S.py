@@ -18,8 +18,8 @@ for name in names:
 	password = ''.join(random.choice(chars) for i in range(8))
 
 	requests.post(url, allow_redirects=False, data={
-		'auid2yjauysd2uasdasdasd': username,
-		'kjauysd6sAJSDhyui2yasd': password
+		'(enter the forum data here)': username,
+		'(enter forum data here)': password
 	})
 
 	print 'sending username %s and password %s' % (username, password)
